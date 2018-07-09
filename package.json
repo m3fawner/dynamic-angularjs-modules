@@ -1,0 +1,24 @@
+{
+  "name": "dynamic-angular-modules",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "Evan M. Williams",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn webpack-dev-server"
+  },
+  "dependencies": {
+    "angular": "^1.7.2",
+    "angular-route": "^1.7.2",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.15.1",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.0.8"
+  }
+}
